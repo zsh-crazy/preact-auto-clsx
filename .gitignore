@@ -1,0 +1,6 @@
+# Logs
+
+pnpm-lock.yaml
+node_modules
+jsx-runtime
+dist

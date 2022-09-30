@@ -1,0 +1,50 @@
+{
+  "name": "preact-auto-classnames",
+  "version": "1.5.9",
+  "description": "",
+  "files": [
+    "jsx-runtime"
+  ],
+  "exports": {
+    "./jsx-runtime": {
+      "import": "./jsx-runtime/index.mjs",
+      "require": "./jsx-runtime/index.js",
+      "types": "./jsx-runtime/index.d.ts"
+    },
+    "./jsx-dev-runtime": {
+      "import": "./jsx-runtime/index.mjs",
+      "require": "./jsx-runtime/index.js",
+      "types": "./jsx-runtime/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development rollup -c rollup.config.js --watch",
+    "build": "cross-env NODE_ENV=production rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "@types/node": "^18.7.19",
+    "cross-env": "^7.0.3",
+    "rollup": "^2.79.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-typescript2": "^0.34.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "preact": "^10.11.0",
+    "preact-auto-classnames": "workspace:^1.5.9",
+    "typescript": "^4.8.3"
+
+  },
+  "dependencies": {
+    "clsx": "^1.2.1"
+  },
+  "peerDependencies": {
+    "preact": ">=10"
+  }
+}
