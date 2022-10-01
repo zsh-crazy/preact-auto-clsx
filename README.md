@@ -16,7 +16,7 @@ npm i -D preact-auto-clsx
 //tsconfig.json
 
 "jsx": "react-jsx",
-"jsxImportSource": "preact-auto-classnames"
+"jsxImportSource": "preact-auto-clsx"
 
 //vite.config.ts
 plugins: [preact({
@@ -32,7 +32,7 @@ plugins: [preact({
       "@babel/plugin-transform-react-jsx",
       {
         runtime: "automatic",
-        importSource: "preact-auto-classnames",
+        importSource: "preact-auto-clsx",
       },
     ],
   ],
@@ -47,7 +47,7 @@ plugins: [preact({
 {
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "preact-auto-classnames",
+    "jsxImportSource": "preact-auto-clsx",
   }
 }
 
@@ -66,7 +66,7 @@ module: {
 {
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "preact-auto-classnames",
+    "jsxImportSource": "preact-auto-clsx",
   }
 }
 
