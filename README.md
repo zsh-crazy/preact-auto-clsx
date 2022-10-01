@@ -1,11 +1,11 @@
-# preact-auto-classnames
+# preact-auto-clsx
 
 主要解决 preact 在webpack，vite 中使用clsx插件繁琐的书写clsx问题，可以极大的提高编写代码的效率
 
 #安装
-pnpm add -D preact-auto-classnames
+pnpm add -D preact-auto-clsx
 
-npm i -D preact-auto-classnames
+npm i -D preact-auto-clsx
 
 # 使用
 
