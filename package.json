@@ -1,6 +1,6 @@
 {
-  "name": "preact-auto-classnames",
-  "version": "1.6.0",
+  "name": "preact-auto-clsx",
+  "version": "1.8.0",
   "description": "主要解决再vite和webpack中className省略clsx，可以像Vue一样去编写样式",
   "files": [
     "jsx-runtime"
