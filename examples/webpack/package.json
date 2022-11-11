@@ -22,7 +22,6 @@
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
-    "preact-auto-classnames": "workspace:^1.5.9",
     "style-loader": "^3.3.1",
     "terser-webpack-plugin": "^5.3.3",
     "url-loader": "^4.1.1",

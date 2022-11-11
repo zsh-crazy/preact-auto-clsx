@@ -1,11 +1,14 @@
 
 
-import './app.css'
+import { h } from 'preact'
+import $style from './app.scss'
 
 export function App() {
 
 
   return (
-    <div className={['box',{box1:true}]}>ddd</div>
+    <div >
+
+    </div>
   )
 }

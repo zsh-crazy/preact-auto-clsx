@@ -6,7 +6,7 @@ module.exports = {
       '@babel/preset-react',
       {
         runtime: 'automatic',
-        importSource: 'preact-auto-classnames',
+        importSource: 'preact-auto-clsx',
       },
     ],
   ],

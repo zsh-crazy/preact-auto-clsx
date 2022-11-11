@@ -1,6 +1,6 @@
 {
   "name": "preact-auto-clsx",
-  "version": "2.1.0",
+  "version": "2.2.1",
   "description": "主要解决再vite和webpack中className省略clsx，可以像Vue一样去编写样式",
   "files": [
     "jsx-runtime"
@@ -33,7 +33,6 @@
     "type": "git",
     "url": "https://github.com/zsh-crazy/preact-auto-classnames.git"
   },
-
   "author": "",
   "license": "MIT",
   "devDependencies": {
@@ -41,17 +40,16 @@
     "@rollup/plugin-node-resolve": "^14.1.0",
     "@types/node": "^18.7.19",
     "cross-env": "^7.0.3",
-    "rollup": "^2.79.0",
-    "rollup-plugin-delete": "^2.0.0",
-    "rollup-plugin-dts": "^4.2.2",
-    "rollup-plugin-typescript2": "^0.34.0",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "preact": "^10.11.0",
-    "preact-auto-classnames": "workspace:^1.5.9",
+    "preact-auto-clsx": "workspace:^2.1.1",
+    "rollup": "^2.79.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-typescript2": "^0.34.0",
     "typescript": "^4.8.3"
-
   },
   "dependencies": {
     "clsx": "^1.2.1"

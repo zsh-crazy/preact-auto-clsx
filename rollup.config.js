@@ -5,18 +5,12 @@ import { resolve } from 'path';
 export default [
   {
     input: './src/index.js',
+    external:['preact','clsx'],
     output: [
       { format: 'cjs', file: "jsx-runtime/index.js", exports: 'auto',sourcemap:true },
       { format: 'esm', file: 'jsx-runtime/index.mjs',sourcemap:true},
     ],
-    plugins: [
-      nodeResolve({
-        extensions: ['ts', 'tsx', 'js', 'jsx'],
-        exclude: '**/node_modules/**',
-      }),
-      commonjs(),
 
-    ],
   },
 
   {

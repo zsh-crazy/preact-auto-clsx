@@ -15,7 +15,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "jsxImportSource": "preact-auto-classnames"
+    "jsxImportSource": "preact-auto-clsx"
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist/**/*"],
