@@ -1,6 +1,6 @@
 {
   "name": "preact-auto-clsx",
-  "version": "2.2.1",
+  "version": "2.2.6",
   "description": "主要解决再vite和webpack中className省略clsx，可以像Vue一样去编写样式",
   "files": [
     "jsx-runtime"

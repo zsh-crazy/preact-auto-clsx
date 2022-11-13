@@ -1,5 +1,5 @@
 
-import { Fragment, jsx as _jsx, jsxs as _jsxs,jsxDEV as _jsxDEV } from 'preact/jsx-runtime';
+import {  jsx as _jsx, jsxs as _jsxs,jsxDEV as _jsxDEV,Fragment as _Fragment  } from 'preact/jsx-runtime';
 
 import {transformProps} from "./utils/index"
 
@@ -14,4 +14,8 @@ function jsxDEV(type, props, key){
   return _jsxDEV(type,transformProps(props),key)
 }
 
-export { Fragment, jsx, jsxs,jsxDEV };
+function Fragment(props,context) {
+  return _Fragment(props,context)
+}
+
+export {  jsx, jsxs,jsxDEV,Fragment };
